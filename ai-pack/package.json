@@ -1,6 +1,6 @@
 {
   "name": "awesome-pack-ai",
-  "version": "2026.3.0",
+  "version": "2026.4.0",
   "publisher": "FakeTrader",
   "engines": {
     "vscode": "^1.99.0"
@@ -13,12 +13,12 @@
   "extensionPack": [
     "Anthropic.claude-code",
     "GitHub.copilot-chat",
+    "GitHub.copilot-labs",
     "HyperCatcher.copy-for-llm",
     "highagency.pencildev",
     "google.geminicodeassist",
     "google.gemini-cli-vscode-ide-companion",
     "ms-toolsai.prompty",
-    "ms-vscode.copilot-mermaid-diagram",
     "ms-vscode.vscode-commander",
     "ms-vscode.vscode-copilot-data-analysis",
     "ms-vscode.vscode-copilot-vision",
@@ -33,5 +33,8 @@
     "type": "git",
     "url": "https://github.com/FakeTrader/awesome-vscode.git",
     "directory": "ai-pack"
-  }
+  },
+  "_extensionPack": [
+    "ms-vscode.copilot-mermaid-diagram"
+  ]
 }

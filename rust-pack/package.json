@@ -1,0 +1,27 @@
+{
+  "name": "awesome-pack-rust",
+  "displayName": " Awesome Rust Pack",
+  "description": "Awesome Rust Development Extension Pack for VSCode",
+  "version": "2026.5.0",
+  "publisher": "FakeTrader",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FakeTrader/awesome-vscode.git",
+    "directory": "rust-pack"
+  },
+  "categories": [
+    "Extension Packs",
+    "Programming Languages"
+  ],
+  "extensionPack": [
+    "fill-labs.dependi",
+    "rust-lang.rust-analyzer",
+    "tamasfe.even-better-toml"
+  ],
+  "extensionPackOptional": [
+  ],
+  "icon": "icon.png"
+}

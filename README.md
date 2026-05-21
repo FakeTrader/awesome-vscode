@@ -16,17 +16,17 @@ Agent is all we need.
 
 Agent 在手，天下我有！
 
-### Documentation Pack
+### Rust Pack
 
-No more excuses for not writing documentation.
+Rewrite It in Rust.
 
-文档自生成，摸鱼更轻松。
+AI 最严厉的父亲。
 
-### Java Pack
+### Web Pack
 
-We love IntelliJ, but we love Code too.
+Any application that can be written in JavaScript, will eventually be written in JavaScript.
 
-我们爱 IntelliJ，也爱 VS Code。
+JS 无处不在。
 
 ### Python Pack
 
@@ -34,11 +34,17 @@ Life is short, use Python.
 
 人生苦短，我用 Python。
 
-### Web Pack
+### Java Pack
 
-What you see is what you get.
+We love IntelliJ, but we love Code too.
 
-所见即所得。
+我们爱 IntelliJ，也爱 VS Code。
+
+### Documentation Pack
+
+No more excuses for not writing documentation.
+
+文档自生成，摸鱼更轻松。
 
 ### Extra Pack
 
@@ -51,3 +57,7 @@ One more thing ...
 ```bash
 make clean install
 ```
+
+##
+
+[Data Studio](https://github.com/faketrader/vscode-data-studio)

@@ -2,7 +2,7 @@
   "name": "awesome-pack-python",
   "displayName": " Awesome Python Pack",
   "description": "Awesome Python Development Extension Pack for VSCode",
-  "version": "2026.3.0",
+  "version": "2026.5.0",
   "publisher": "FakeTrader",
   "engines": {
     "vscode": "^1.99.0"
@@ -26,14 +26,11 @@
     "almenon.arepl",
     "google.colab",
     "charliermarsh.ruff",
-    "ms-pyright.pyright",
-    "ms-python.black-formatter",
-    "ms-python.flake8",
     "ms-python.isort",
     "ms-python.mypy-type-checker",
     "ms-python.pylint",
     "ms-python.python",
-    "ms-python.vscode-python-envs",
+    "ms-python.vscode-pylance",
     "ms-toolsai.datawrangler",
     "ms-toolsai.jupyter",
     "ms-toolsai.jupyter-hub",
@@ -50,5 +47,10 @@
     "ms-toolsai.python-ds-extension-pack",
     "njpwerner.autodocstring"
   ],
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "_extensionPack": [
+    "ms-python.black-formatter",
+    "ms-python.flake8",
+    "ms-python.vscode-python-envs"
+  ]
 }
